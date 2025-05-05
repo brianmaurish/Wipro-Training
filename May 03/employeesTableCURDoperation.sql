@@ -24,3 +24,4 @@ where salary=65000;
 
 delete from employees
 where hiredate>'2025-02-01';
+
