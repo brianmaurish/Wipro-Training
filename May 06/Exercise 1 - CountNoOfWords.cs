@@ -1,5 +1,5 @@
 class Program
-{ 
+{
     public static void Main()
     {
         Console.Write("Enter a sentence: ");
@@ -10,10 +10,11 @@ class Program
     }
     static int CountWords(string sentence)
     {
-        string[] words = sentence.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+        string[] words = sentence.Split(" ");
         return words.Length;
     }
 }
+
 
 
 
