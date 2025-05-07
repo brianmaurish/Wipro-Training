@@ -4,9 +4,9 @@ class Program
     {
         Console.WriteLine("Enter a sentence: ");
         String sentence=Console.ReadLine();
-        LongestWord(sentence);
+        DuplicateWord(sentence);
     }
-    static void LongestWord(String sentence)
+    static void DuplicateWord(String sentence)
     {
         string[] str = sentence.Split(' ');
         bool[] visited=new bool[str.Length];
