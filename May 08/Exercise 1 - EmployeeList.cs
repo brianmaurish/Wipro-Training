@@ -35,6 +35,10 @@ class Program
             Console.WriteLine("Mathew is not present");
         }
 
+        //Count the number of employees
+        int count=employee.Count();
+        Console.WriteLine("The no of employees: " + count);
+
         //Print the elements in list
         foreach (var emp in employee)
         {
