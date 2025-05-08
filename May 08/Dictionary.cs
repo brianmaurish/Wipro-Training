@@ -18,7 +18,6 @@ class Program
         {
             {
                 Console.WriteLine($"ID: {student.Key}, Name: {student.Value}");
-
             }
         }
     }
