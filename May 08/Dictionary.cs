@@ -12,7 +12,10 @@ class Program
 
         //Accessing values using keys
         Console.WriteLine("Student with ID 102: " + students[102]);
-
+        
+        //Updating name of student ID 103
+        students[103] = "Ananya";
+        
         //Looping through the dictionary
         foreach (var student in students)
         {
