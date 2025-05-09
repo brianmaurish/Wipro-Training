@@ -29,13 +29,13 @@ namespace ConsoleApp7
         static void Main()
         {
             Employee emp = new Employee();
-            emp.Work();
+            emp.Work(); //calls base method
 
             Manager mgr = new Manager();
-            mgr.Work();
+            mgr.Work(); //calls overridden method
 
             Employee polyEmp = new Manager();
-            polyEmp.Work();
+            polyEmp.Work(); //calls overridden method
 
         }
     }
