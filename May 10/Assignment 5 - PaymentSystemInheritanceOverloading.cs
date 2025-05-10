@@ -7,10 +7,13 @@ class Payment
 
     public virtual void ProcessPayment(decimal amount)
     {
+        Amount = amount;
         Console.WriteLine("Processing Amount: " + Amount);
     }
     public virtual void ProcessPayment(decimal amount, string currency)
     {
+        Amount = amount;
+        Currency = currency;
         Console.WriteLine("Processing Amount: "+Amount);
         Console.WriteLine("Processing Currency: " + Currency);
     }
@@ -39,16 +42,15 @@ class Program
         CreditCardPayment payment1 = new CreditCardPayment();
         payment1.CardNumber = 123456;
         payment1.ProcessPayment(2100);
-        payment1.ProcessPayment(3000,"$3600");
+        payment1.ProcessPayment(3500,"$3400");
         payment1.ShowDetails();
 
+        Console.WriteLine();
         PayPalPayment payment2 = new PayPalPayment();
         payment2.EmailAddress = "email@gmail.com";
         payment2.ProcessPayment(2100);
         payment2.ProcessPayment(3000, "$3600");
         payment2.ShowDetails();
-
-
 
     }
 }
