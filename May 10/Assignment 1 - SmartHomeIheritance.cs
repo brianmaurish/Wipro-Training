@@ -30,7 +30,6 @@ class SmartLight : SmartDevice
     public void SetBrightness(int  value)
    {
         Brightness = value;
-       // Console.WriteLine("The Brightness is: " + Brightness);
     }
     public void ShowStatus()
     {
@@ -50,7 +49,6 @@ class SmartThermostat:SmartDevice
     public void SetTemperature(int value)
     {
         Temperature = value;
-       // Console.WriteLine("The Brightness is: " + Temperature);
     }
     public void ShowStatus()
     {
