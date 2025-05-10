@@ -2,7 +2,7 @@ class CalculatePower
 {
     public void Power(int a, int b)
     {
-        Console.WriteLine("The power is: "+Math.Pow(a,b));
+        Console.WriteLine("The power is: "+ Math.Pow(a, b));
     }
     public void Power(double a, double b)
     {
