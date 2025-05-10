@@ -1,7 +1,7 @@
 class SmartDevice
 {
-    string DeviceName;
-    bool PowerStatus;
+    public string DeviceName;
+    public bool PowerStatus;
 
     public SmartDevice(string DeviceName,bool PowerStatus)
     {
