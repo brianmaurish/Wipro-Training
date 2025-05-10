@@ -6,11 +6,11 @@ class Shape
     }
     public void Area(double radius)
     {
-        Console.WriteLine("The area of Circle is: "+3.14*radius*radius);
+        Console.WriteLine("The area of Circle is: "+ 3.14 * radius * radius);
     }
     public void Area(float baseheight, float height)
     {
-        Console.WriteLine("The area of Triangle is: "+ 0.5*baseheight*height);
+        Console.WriteLine("The area of Triangle is: "+ 0.5 * baseheight * height);
     }
 }
 
