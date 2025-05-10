@@ -9,7 +9,7 @@ class SmartDevice
         this.PowerStatus = PowerStatus;
     }
         
-    public void TogglePower(bool PowerStatus)
+    public void TogglePower()
     {
         if(PowerStatus)
         {
@@ -26,10 +26,11 @@ class SmartDevice
 class SmartLight : SmartDevice
 {
     int Brightness;
+    public SmartLight(string devicename, bool powerstatus ) : base(devicename, powerstatus) { }
     public void SetBrightness(int  value)
-    {
+   {
         Brightness = value;
-        Console.WriteLine("The Brightness is: " + Brightness);
+       // Console.WriteLine("The Brightness is: " + Brightness);
     }
     public void ShowStatus()
     {
@@ -45,10 +46,11 @@ class SmartLight : SmartDevice
 class SmartThermostat:SmartDevice
 {
     double Temperature;
+    public SmartThermostat(string devicename, bool powerstatus) : base(devicename, powerstatus) { }
     public void SetTemperature(int value)
     {
         Temperature = value;
-        Console.WriteLine("The Brightness is: " + Temperature);
+       // Console.WriteLine("The Brightness is: " + Temperature);
     }
     public void ShowStatus()
     {
@@ -67,13 +69,13 @@ class Program
     public static void Main()
     {
         SmartDevice device = new SmartDevice("Television",true);
-        device.TogglePower(true);
+        device.TogglePower();
 
-        SmartLight brightness=new SmartLight();
+        SmartLight brightness=new SmartLight("Living Room Light",true);
         brightness.SetBrightness(25);
         brightness.ShowStatus();
 
-        SmartThermostat temp = new SmartThermostat();
+        SmartThermostat temp = new SmartThermostat("Kitchen Thermostat",true);
         temp.SetTemperature(35);
         temp.ShowStatus();
 
