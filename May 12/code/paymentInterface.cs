@@ -20,11 +20,14 @@ class Program
 {
     public static void Main()
     {
-        IPayment payment;
+        //using the interface as a reference
+        IPayment payment; 
 
+        //credit card payment
         payment = new CredictCardPayment();
         payment.ProcessPayment(1500.50m);
 
+        //PayPal payment
         payment = new PayPalPayment();
         payment.ProcessPayment(2500.75m);
     }
