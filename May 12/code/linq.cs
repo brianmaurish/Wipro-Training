@@ -9,7 +9,8 @@ class Program
         string[] names = { "Anil", "Sharma", "Abdullah", "Imran", "Siva", "Naresh", "Suresh", "Suman" };
         //UsingLinqQuery(names);
         //UsingLinqExtensions(names);
-        UsingLinqFunctions(names);
+        //UsingLinqFunctions(names);
+        UsingAnonymousMethod(names);
     }
 
     /*private static void UsingLinqQuery(string[] names)
@@ -41,7 +42,7 @@ class Program
         }
     }*/
 
-    private static void UsingLinqFunctions(string[] names)
+    /*private static void UsingLinqFunctions(string[] names)
     {
         Func<string, bool> filter=s=>s.Length == 5;
         Func<string, string> extract = s => s;
@@ -51,6 +52,31 @@ class Program
                                             .OrderBy(extract)
                                             .Select(project);
 
+
+        foreach (string item in query)
+        {
+            Console.WriteLine(item);
+        }
+    }*/
+
+    private static void UsingAnonymousMethod(string[] names)
+    {
+        Func<string, bool> filter = delegate (string s)
+        {
+            //more lines of code
+            return s.Length == 5;
+        };
+        Func<string, string> extract = delegate (string s)
+        {
+            return s; 
+        };
+        Func<string, string> project = delegate (string s)
+        {
+            return s.ToUpper();
+        };
+        IEnumerable<string> query = names.Where(filter)
+                                            .OrderBy(extract)
+                                            .Select(project);
 
         foreach (string item in query)
         {
