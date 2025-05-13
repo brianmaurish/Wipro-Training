@@ -16,18 +16,18 @@ class TestClass
 
         printActionDel(10);
         printToPrinter(45);
-
+    }
         public static void ConsolePrint(int i)
         {
-            ConsolePrint(i);
+        Console.WriteLine(i);
         }
         public static void PrinterPrint(int i)
         {
-            ConsolePrint(i);
+        Console.WriteLine("This is being printed to the printer");
         }
     
 }
 
-}
+
 
 
