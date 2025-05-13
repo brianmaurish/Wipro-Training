@@ -19,17 +19,23 @@ class TestClass
     static void Main()
     {
         //Create instances of the custom delegate
-        CustomDel hiDel, byeDel, multiDel;
+        CustomDel hiDel, byeDel, multiDel, multiMinusHiDel;
         hiDel = Hello; //Delegate object that reference the method
         byeDel= Goodbye;
 
         multiDel = hiDel + byeDel; //Two delegates are combined to form multiDel
+        multiMinusHiDel=multiDel - hiDel; //Remove hiDel from multiDel, Therefore it calls only method Goodbye
+
         Console.WriteLine("Invoking delegate hiDel:");
         hiDel("A");
         Console.WriteLine("Invoking delegate byeDel:");
         byeDel("B");
         Console.WriteLine("Invoking delegate multiDel:");
         multiDel("C");
+        Console.WriteLine("Invoking delegate multiMinusHiDel");
+        multiMinusHiDel("D");
+
+
     }
 }
 
