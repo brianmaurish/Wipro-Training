@@ -21,4 +21,21 @@ class TestClass
 
     }
 }
+/* Using predefined delegate type 'Func'
+class TestClass
+{
+    static int Sum(int x,int y)
+    {
+        return x + y;
+    }
+    
+    static void Main()
+    {
+        Func<int, int, int> add = Sum;
+        int result = add(10, 10);
+        Console.WriteLine(result);
+
+    }
+}
+*/
 
