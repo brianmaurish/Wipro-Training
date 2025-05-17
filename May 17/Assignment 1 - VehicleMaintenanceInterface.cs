@@ -1,0 +1,41 @@
+interface IMaintenance
+{
+    void Service();
+    void Repair();
+}
+class CarMaintenance : IMaintenance
+{
+    public void Service()
+    {
+        Console.WriteLine("Car is being serviced");
+    }
+    public void Repair()
+    {
+        Console.WriteLine("Car is being repaired");
+    }
+}
+class BikeMaintenance : IMaintenance
+{
+    public void Service()
+    {
+        Console.WriteLine("Bike is being serviced");
+    }
+    public void Repair()
+    {
+        Console.WriteLine("Bike is being repaired");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        IMaintenance car = new CarMaintenance();
+        car.Service();
+        car.Repair();
+
+        IMaintenance bike = new BikeMaintenance();
+        bike.Service();
+        bike.Repair();
+    }
+
+}
