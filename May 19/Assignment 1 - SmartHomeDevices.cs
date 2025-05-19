@@ -14,7 +14,7 @@ interface IRemoteControl
 }
 class SmartLight: SmartDevice,IRemoteControl
 {
-    public void TurnOn()
+    public override void TurnOn()
     {
         Console.WriteLine("Smart Light turned on");
     }
@@ -29,7 +29,7 @@ class SmartLight: SmartDevice,IRemoteControl
 }
 class SmartSpeaker : SmartDevice, IRemoteControl
 {
-    public void TurnOn()
+    public override void TurnOn()
     {
         Console.WriteLine("Smart Speaker turned on");
     }
@@ -50,14 +50,17 @@ class Program
         SmartDevice light = new SmartLight();
         light.TurnOn();
         light.ShowStatus();
+        Console.WriteLine();
 
         SmartDevice speaker = new SmartSpeaker();
         speaker.TurnOn();
         speaker.ShowStatus();
+        Console.WriteLine();
 
         IRemoteControl remoteControlLight = new SmartLight();
         remoteControlLight.IncreaseVolume();
         remoteControlLight.DecreaseVolume();
+        Console.WriteLine();
 
         IRemoteControl remortControlSpeaker = new SmartSpeaker();
         remortControlSpeaker.IncreaseVolume();
