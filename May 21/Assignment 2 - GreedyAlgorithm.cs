@@ -3,10 +3,10 @@ class Program
 {
     static void FindMinimumCoins(int amount)
     {
-        int[] denominations = { 500, 200, 100, 50, 20, 10, 5, 2, 1 };
+        int[] Coins = { 500, 200, 100, 50, 20, 10, 5, 2, 1 };
         List<int> coinsUsed = new List<int>();
 
-        foreach (int coin in denominations)
+        foreach (int coin in Coins)
         {
             while (amount >= coin)
             {
