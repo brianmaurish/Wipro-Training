@@ -22,5 +22,4 @@ class Program
             Console.WriteLine(result);
         }
     }
-
 }
