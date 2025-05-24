@@ -22,6 +22,7 @@ class Program
         CancellationToken token = cts.Token;
 
         Task work = DoWorkAsync(token);
+        
         await Task.Delay(2000);
         cts.Cancel();
 
