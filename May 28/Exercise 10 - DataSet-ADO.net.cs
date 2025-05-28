@@ -19,7 +19,7 @@ class Program
             try
             {
                 SqlDataAdapter adapter = new SqlDataAdapter(queryString, connection);            
-                adapter.Fill(dataSet, "Products"); // Loads into DataSet instead of DataTable
+                adapter.Fill(dataSet, "Products"); 
 
                 DataTable dataTable = dataSet.Tables["Products"];
 
