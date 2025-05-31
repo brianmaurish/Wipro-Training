@@ -4,8 +4,8 @@ using System.Collections.Generic;
 abstract class Invoice
 {
     protected List<Product> Products = new List<Product>();
-    public decimal TaxRate { get; set; } = 0.1m;  
-    public decimal Discount { get; set; } = 0.05m;  
+    public decimal TaxRate = 0.1m;  
+    public decimal Discount = 0.05m;  
 
     public void AddProduct(Product product)
     {
