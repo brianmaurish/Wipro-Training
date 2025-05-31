@@ -8,6 +8,7 @@ class Program
         await Task.Delay(delay);
         Console.WriteLine(city + " weather fetched");
     }
+    
     static async Task Main()
     {
         Stopwatch stopwatch = Stopwatch.StartNew();
