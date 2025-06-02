@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Migrations\\20250602111311_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication16\\Migrations\\20250602111311_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0870D1C5-B296-4DE6-82A2-C3A2E50072E5}|WebApplication16\\WebApplication16.csproj|c:\\users\\admin\\source\\repos\\webapplication16\\webapplication16\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0870D1C5-B296-4DE6-82A2-C3A2E50072E5}|WebApplication16\\WebApplication16.csproj|solutionrelative:webapplication16\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0870D1C5-B296-4DE6-82A2-C3A2E50072E5}|WebApplication16\\WebApplication16.csproj|c:\\users\\admin\\source\\repos\\webapplication16\\webapplication16\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0870D1C5-B296-4DE6-82A2-C3A2E50072E5}|WebApplication16\\WebApplication16.csproj|solutionrelative:webapplication16\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 491,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250602111311_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Migrations\\20250602111311_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication16\\Migrations\\20250602111311_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Migrations\\20250602111311_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication16\\Migrations\\20250602111311_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:13:12.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "WebApplication16\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebApplication16\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:11:57.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplication16\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication16\\WebApplication16\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication16\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:10:24.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 117,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
